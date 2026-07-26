@@ -16,6 +16,9 @@ renv/local/
 renv/python/
 renv/cellar/
 
+# Spatial data
+data/spatial
+
 # Temporary files
 *.tmp
 *.log
