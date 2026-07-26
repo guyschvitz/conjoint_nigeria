@@ -1,0 +1,21 @@
+# RStudio and R session files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local renv package installations and temporary files
+renv/library/
+renv/staging/
+renv/cache/
+renv/local/
+renv/python/
+renv/cellar/
+
+# Temporary files
+*.tmp
+*.log
