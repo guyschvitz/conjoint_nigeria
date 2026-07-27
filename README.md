@@ -91,11 +91,11 @@ This script reproduces the descriptive figures for respondent characteristics, a
 
 ## Code organization
 
-The files directly under `R/` are the user-facing entry points for the replication workflow.
+All script files are stored in the `R/` subfolder
 
-The corresponding files under `R/scripts/` contain the underlying analysis steps. Shared project functions are stored in `R/functions/00_analysis_functions.R` and are sourced by the analysis scripts when required.
+Shared project functions are stored in `R/functions/00_analysis_functions.R` and are sourced by the analysis scripts.
 
-All paths are relative to the repository root. The directory structure should therefore be retained when copying or extracting the replication package.
+All paths are relative to the repository root. The directory structure should therefore be preserved when copying or extracting the replication package.
 
 ## Data files
 
@@ -105,7 +105,7 @@ The `data/` directory contains the original survey files and the prepared R data
 - `conjoint_labels_df.Rds` contains the attribute and level labels used in tables and figures.
 - `conjoint_data_codebook.Rds` contains variable descriptions and survey-question documentation.
 
-The replication scripts read the prepared `.Rds` files directly. The original `.sav` files are included for reference and data provenance.
+The replication scripts read the prepared `.Rds` files directly. 
 
 ## Output files
 

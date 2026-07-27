@@ -1,6 +1,7 @@
 # RStudio and R session files
 .Rproj.user/
 .Rhistory
+.Rprofile
 .RData
 .Ruserdata
 
@@ -22,3 +23,4 @@ data/spatial
 # Temporary files
 *.tmp
 *.log
+*.html
