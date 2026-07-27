@@ -1,4 +1,11 @@
-# Replication Guide: Schvitz et al. 2026
+# Replication Data
+
+**Paper:** “Which policies increase public support for reintegrating former armed group affiliates? Evidence from a conjoint survey in Nigeria”
+
+**Authors:** Guy Schvitz, Govinda Clayton, Edward Morgan-Jones, Claudia Wiehler,
+Ben Szreter, Chloé Chambraud
+
+**Year:** 2026
 
 ## Overview
 
@@ -94,7 +101,6 @@ All paths are relative to the repository root. The directory structure should th
 
 The `data/` directory contains the original survey files and the prepared R data objects used by the analysis.
 
-- `FINAL_CLIENT_DATA_1409.sav` and `FINAL_CLIENT_DATA_2009.sav` contain the original survey data files.
 - `conjoint_data_prepped.Rds` contains the prepared respondent- and conjoint-level analysis data.
 - `conjoint_labels_df.Rds` contains the attribute and level labels used in tables and figures.
 - `conjoint_data_codebook.Rds` contains variable descriptions and survey-question documentation.
